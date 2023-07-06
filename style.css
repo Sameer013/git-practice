@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ysabeau SC', sans-serif;
+    
+}
+
+body{
+    background-color: black;
+    position: relative;
+
+}
+
+.nav-logo{
+    font-size: 30px;
+    color: #fff;
+    
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(76, 0, 61);
+    
+    width: 100vw;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-bar-links{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    list-style: none;
+    position: relative;
+    
+
+    
+
+}
+
+
+
+.nav-bar-links a{
+    text-decoration: none;
+    color: #fff;
+    
+    padding: 0.5rem 1rem; 
+    transition: color 0.5s ease;
+
+    border-radius: 10px;
+
+}
+
+
+.nav-bar-links a:hover{
+    color: #e940c1;
+    scale: 2rem;
+    
+    /* background-color: white; */
+}
